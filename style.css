@@ -117,32 +117,3 @@ a {
 #check:checked~.sidebar_menu .btn_two i {
     opacity: 1;
 }
-
-.card {
-    width: 400px;
-    border: 2px solid black;
-    border-radius: 25px;
-    padding: 10px;
-    margin: 10px;
-}
-
-img {
-    height: 100%;
-    width: 100%;
-    border-radius: 25px;
-}
-
-h1 {
-    color: #d56f3e;
-}
-
-#gallery {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-@media (max-width: 375px) {
-    #gallery {
-        flex-wrap: wrap;
-    }
-}
